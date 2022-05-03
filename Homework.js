@@ -12,8 +12,10 @@ ASSIGNMENT RULES
  Enumerate and describe the main datatypes in JavaScript. Try to explain the concepts as you were speaking to a 12 years old.
 */
 
+console.log("Exr. 1")
+
 /* 
-   Primitive data types:
+   Main data type:
 
    1. NUMBERS:
    This include integer and decimal numbers. They are used to perform mathematical equations or just used as a 
@@ -22,31 +24,25 @@ ASSIGNMENT RULES
    2. BOOLENS:
    This only have two value; True or False. So only data that can be represented in two states is used here.
 
-   2. UNDEFINED:
+   3. UNDEFINED:
    This is a value given to a variable that was not explicitly assigned a vslue. It means that it has no defined 
    data value that was given to it.
 
-   3. NULL
+   4. NULL
    This is the value given to a variable when its value was explicitly emptied out. This means the variable had a defined value
    then becomes null when it goot emptied out.
 
-   1. OBJECTS.
-
-   2. STRINGS:
+   5. STRINGS:
    These are collections of characters and symbols used to represent text. For example names.
-   
-   Non Primitives:
-
-     
-
-   SPECIAL NUMBERS:
-   These are special values that are considered as numbers but do not behave as numbers do, for example NaN.
 
  */
+
 
 /* EXERCISE 2
  Try to describe what a variable is, in your own words.
 */
+
+console.log("Exr. 2")
 
 /*  
    A variable is used to store information to be referenced and manipulated during programming. They are also
@@ -57,6 +53,8 @@ ASSIGNMENT RULES
 /* EXERCISE 3
  Write the code to execute an addition (a sum) of the numbers 12 and 20.
 */
+
+console.log("Exr. 3")
 
 let numberOne = 12
 let numberTwo = 20
@@ -70,16 +68,18 @@ console.log(sum)
  Create a variable named x and assign to it the number 12.
 */
 
+console.log("Exr. 4")
+
 let x = 12
 
 console.log(x)
 
 
-
-
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
 */
+
+console.log("Exr. 5")
 
 let name = "John Doe"
 
@@ -89,6 +89,8 @@ console.log(name)
 /* EXERCISE 6
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
 */
+
+console.log("Exr. 6")
 
 let subtraction = 12 - x
 
@@ -100,6 +102,8 @@ console.log(subtraction)
  Verify that name1 is different from name2 (HINT: check their equality to be false).
  Finally, verify that the equality between name1 and name2 becomes true if both are lowercase (without changing the value of name2).
 */
+
+console.log("Exr. 7")
 
 let name1 ="john"
 let name2 = "John"
@@ -118,6 +122,8 @@ console.log(toLowerCase)
  Create a variable named x, and assign to it a numeric value less than 10.
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
 */
+
+console.log("Exr. 8")
 
 let x8 = 5
 
@@ -172,17 +178,12 @@ if (x8 === 1) {
 }
            
    
-
-
-
-
-
-
-
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
  try to search it by yourself, tomorrow morning we'll discuss it together!)
 */
+
+console.log("Exr. 9")
 
 
 let age = 26
@@ -196,10 +197,4 @@ if (age > 26) {
 
 console.log(eligibility)
 
-
-
-
-
-/* WHEN YOU ARE FINISHED
- Upload the .js file on Eduflow before 5PM CET. In the next days we'll also learn how to use GIT!
-*/
+console.log("THE END")
