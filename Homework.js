@@ -12,20 +12,32 @@ ASSIGNMENT RULES
  Enumerate and describe the main datatypes in JavaScript. Try to explain the concepts as you were speaking to a 12 years old.
 */
 
-/* NUMBERS:
-   This include integer and decimal numbers. They are used to perform mathematical equations or just used as a count of value.
+/* 
+   Primitive data types:
 
-   BOOLENS:
+   1. NUMBERS:
+   This include integer and decimal numbers. They are used to perform mathematical equations or just used as a 
+   count of value.
+
+   2. BOOLENS:
    This only have two value; True or False. So only data that can be represented in two states is used here.
 
-   UNDEFINED:
-   This is a value given to a variable that was not explicitly assigned a vslue. It means that it has no defined data value that was given to it.
+   2. UNDEFINED:
+   This is a value given to a variable that was not explicitly assigned a vslue. It means that it has no defined 
+   data value that was given to it.
 
-   NULL
-   This is the value given to a variable when its value was explicitly emptied out. This means the variable had a defined value then becomes null when it goot emptied out.
+   3. NULL
+   This is the value given to a variable when its value was explicitly emptied out. This means the variable had a defined value
+   then becomes null when it goot emptied out.
+
+   1. OBJECTS.
+
+   2. STRINGS:
+   These are collections of characters and symbols used to represent text. For example names.
    
-   STRINGS:
-   These are collections of characters and symbols used to represent text. For example names.  
+   Non Primitives:
+
+     
 
    SPECIAL NUMBERS:
    These are special values that are considered as numbers but do not behave as numbers do, for example NaN.
@@ -82,27 +94,111 @@ let subtraction = 12 - x
 
 console.log(subtraction)
 
+
 /* EXERCISE 7
  Create two variables: name1 and name2. Assign to name1 the string "john", and to name2 the string "John" (this one has a capital J!)
  Verify that name1 is different from name2 (HINT: check their equality to be false).
  Finally, verify that the equality between name1 and name2 becomes true if both are lowercase (without changing the value of name2).
 */
 
-/* WRITE YOUR ANSWER HERE */
+let name1 ="john"
+let name2 = "John"
+
+console.log(name1, name2)
+
+let equalityOfJohns = name1 === name2
+
+console.log(equalityOfJohns)
+
+let toLowerCase = name1.toLowerCase === name2.toLowerCase
+
+console.log(toLowerCase)
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
 */
 
-/* WRITE YOUR ANSWER HERE */
+let x8 = 5
+
+if (x8 === 1) {
+   console.log("one")
+} 
+   else {
+      if (x8 === 2) {
+      console.log("two")
+   } 
+   else {
+      if (x8 === 3) {
+         console.log("three")
+      } 
+   else {
+      if(x8 === 4){
+         console.log("four")   
+      }
+   else {  
+      if (x8 === 5) {
+         console.log("five")
+      } 
+   else {
+      if (x8 === 6) {
+         console.log("six")
+      } 
+   else {
+      if (x8 === 7) {
+         console.log("seven")
+      } 
+   else { 
+      if (x8 === 8) {
+         console.log("eight")
+      } 
+   else {
+      if (x8 === 9) {
+         console.log("nine")
+      } 
+   else {
+      if (x8 === 10) {
+         console.log("ten")
+      } 
+   
+   }
+    }
+     }
+      }
+       }
+        }
+         }
+          }
+}
+           
+   
+
+
+
+
+
+
 
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
  try to search it by yourself, tomorrow morning we'll discuss it together!)
 */
 
-/* WRITE YOUR ANSWER HERE */
+
+let age = 26
+let eligibility
+
+if (age > 26) {
+   eligibility = "Acceptedd"
+} else {
+   eligibility = "Not Accepted"
+}
+
+console.log(eligibility)
+
+
+
+
 
 /* WHEN YOU ARE FINISHED
  Upload the .js file on Eduflow before 5PM CET. In the next days we'll also learn how to use GIT!
